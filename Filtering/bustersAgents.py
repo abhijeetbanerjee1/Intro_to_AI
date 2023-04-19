@@ -1,10 +1,3 @@
-"""
-    Student Team Info:
-        1)  Name: Abhijeet Amitava Banerjee
-	        GMU ID: G01349260
-        2)  Name: Joel Sadanand Samson
-            GMU ID: G01352483
-"""
 
 
 
