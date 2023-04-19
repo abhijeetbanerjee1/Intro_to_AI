@@ -1,12 +1,4 @@
-"""
-    Student Team Info:
-        1)  Name: Abhijeet Banerjee
-	        Gnum: G01349260
-        2)  Name: Joel Sadanand Samson
-            Gnum: G01352483
-        
 
-"""
 
 # valueIterationAgents.py
 # -----------------------
