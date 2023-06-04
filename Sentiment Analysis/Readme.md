@@ -1,4 +1,4 @@
-Libraries:
+###Libraries:
 Pandas for dataframe manipulation.
 Matplotlib for data visualization.
 Nltk and textblob for text analysis.
@@ -31,11 +31,11 @@ Data Preprocessing:
 Data Cleaning: 
 Using regular expression to remove tags e.g. "@some_user", links form extracted tweets, numbers in the tweets. 
 Converting all words to lower case.
-Converting words into its base form(Lemmatization) using WordNetLemmatizer().
+Converting words into its base form(Lemmatization) using 'WordNetLemmatizer()'.
 Removing stop words.
 
 Building a Sentiment Analyzer Engine:
-Using the library TextBlob to find the sentiment of the tweets. Using the "sentiment" function of the TextBlob library to get the "polarity". Polarity lies between -1 to +1. The get_polarity() is used to get the polarity of each tweet and the depending upon the polarity value the tweet can be placed in any one of the 7 review category. 
+Using the library TextBlob to find the sentiment of the tweets. Using the "sentiment" function of the TextBlob library to get the "polarity". Polarity lies between -1 to +1. The 'get_polarity()' funtion is used to get the polarity of each tweet and the depending upon the polarity value the tweet can be placed in any one of the 7 review category. 
 
 Visualizing Results:
 Using a pie chart to conclude the results about the sentiment of the tweets with a quick glance.
