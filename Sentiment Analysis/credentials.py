@@ -1,5 +1,0 @@
-api_key = "Enter your API Key here"
-api_secret = "Enter you API Secret here"
-access_token = "Enter your Access Token here"
-access_token_secret = "Enter your Access Token Secret here"
-bearer_token = "Enter your Bearer Token here"
