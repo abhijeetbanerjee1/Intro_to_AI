@@ -11,13 +11,20 @@ Sentiment analysis is a Natural Language Processing technique used to determine 
 
 Dataset: 
 The data in this project are tweets form Twitter API which are only in English language and retweets are flitered out to avoid the extraction of duplicate tweets.
+
 To scrape tweets from the Twitter API:
 Create a Twitter Developer Account: Visit the Twitter Developer Platform (https://developer.twitter.com/en) and sign up for a developer account. Once your account is approved, you'll be able to create an application and obtain the necessary API credentials.
+
 Create a Twitter Application: After logging in to the Twitter Developer Platform, create a new application. Provide the required information about your project, such as the name, description, and purpose. Once your application is created, you'll be able to generate API keys and access tokens.
+
 Obtain API Credentials: In your Twitter application's dashboard, navigate to the "Keys and tokens" tab. Here, you'll find your API key, API secret key, access token, and access token secret. These credentials will be needed to authenticate your requests to the Twitter API.
+
 Choose a Programming Language and Library: Decide on a programming language you're comfortable with. Here I went with Twitter API scraping with Python. Additionally, select a library that provides an interface to the Twitter API, I chose to go with Tweepy for Python.
+
 Set up the Library: Install the chosen library by following its installation instructions. For example, if like me you're also using Python and Tweepy, you can install it via pip: pip install tweepy. You may also need to import the library into your project.
+
 Authenticate your Application: Using the API credentials obtained in Step 3, initialize the library with the appropriate authentication. This typically involves providing your API key, API secret key, access token, and access token secret to the library's authentication method.
+
 Define Search Parameters: Decide on the criteria for the tweets you want to scrape, such as specific keywords, hashtags, user mentions, or geolocation. Specify these parameters in your code to tailor the search to your needs.
 
 Data Preprocessing:
